@@ -4,7 +4,7 @@ metadata:
   name: nginx-deployment-1
   namespace: demo-app
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: nginx-1
@@ -25,7 +25,7 @@ metadata:
   name: nginx-deployment-2
   namespace: demo-app
 spec:
-  replicas: 1
+  replicas: 5
   selector:
     matchLabels:
       app: nginx-2
