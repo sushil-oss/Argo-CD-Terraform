@@ -14,7 +14,7 @@ akss = {
     default_node_pool = {
       name       = "nodepool1"
       node_count = 1
-      vm_size    = "standard_dc2ads_v5"
+      vm_size    = "Standard_D2s_v3"
     }
   }
 }
